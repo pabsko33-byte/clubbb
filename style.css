@@ -14,26 +14,28 @@ html {
 }
 
 :root {
-  --bg-main: #050608;
-  --bg-elevated: #101218;
-  --bg-card: #141620;
-  --border-soft: rgba(148, 163, 184, 0.3);
-  --border-strong: rgba(75, 85, 99, 0.9);
+  --bg-main: #111827;      /* gris bleu foncé, moins “trou noir” */
+  --bg-elevated: #1f2933;  /* panels légèrement plus clairs */
+  --bg-card: #111827;      /* cartes gris foncé neutre */
+  --border-soft: rgba(148, 163, 184, 0.35);
+  --border-strong: rgba(75, 85, 99, 0.95);
   --text-main: #f4f4f5;
-  --text-muted: #a1a1aa;
+  --text-muted: #9ca3af;
   --accent-green: #22c55e;
   --accent-cyan: #06b6d4;
   --danger-red: #fb7185;
+
 }
 
 body {
   background:
-    radial-gradient(circle at 0% 0%, #111827 0, transparent 55%),
-    radial-gradient(circle at 100% 0%, #020617 0, transparent 55%),
+    radial-gradient(circle at 0% 0%, #1f2933 0, transparent 55%),
+    radial-gradient(circle at 100% 0%, #111827 0, transparent 55%),
     var(--bg-main);
   color: var(--text-main);
   font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
 }
+
 
 /* STRUCTURE GLOBALE */
 .app {
@@ -314,9 +316,10 @@ body {
 
 /* MARKETS */
 .markets {
+ .markets {
   background:
     radial-gradient(circle at 100% 0%, rgba(148, 163, 184, 0.08), transparent 55%),
-    linear-gradient(to bottom, #050815, #020308);
+    linear-gradient(to bottom, #111827, #020617);
 }
 
 .markets-layout {
@@ -502,7 +505,7 @@ body {
 
 /* CHATBOT */
 .chatbot {
-  background: linear-gradient(to bottom, #050608, #020308);
+  background: linear-gradient(to bottom, #111827, #020617);
 }
 
 .chatbot-layout {
@@ -589,7 +592,7 @@ body {
 
 /* WORKSHOPS */
 .workshops {
-  background: linear-gradient(to bottom, #050608, #020308);
+  background: linear-gradient(to bottom, #111827, #020617);
 }
 
 .workshops-grid {
@@ -625,7 +628,7 @@ body {
 
 /* CLUB */
 .club {
-  background: linear-gradient(to bottom, #050608, #020308);
+  background: linear-gradient(to bottom, #111827, #020617);
 }
 
 .club-layout {
@@ -672,7 +675,7 @@ body {
 
 /* NEWSLETTER */
 .newsletter {
-  background: linear-gradient(to bottom, #050608, #020308);
+  background: linear-gradient(to bottom, #111827, #020617);
 }
 
 .newsletter-layout {
