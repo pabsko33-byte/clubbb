@@ -14,24 +14,25 @@ html {
 }
 
 :root {
-  --bg-main: #111827;      /* gris bleu foncé, moins “trou noir” */
-  --bg-elevated: #1f2933;  /* panels légèrement plus clairs */
-  --bg-card: #111827;      /* cartes gris foncé neutre */
-  --border-soft: rgba(148, 163, 184, 0.35);
-  --border-strong: rgba(75, 85, 99, 0.95);
-  --text-main: #f4f4f5;
-  --text-muted: #9ca3af;
-  --accent-green: #22c55e;
-  --accent-cyan: #06b6d4;
-  --danger-red: #fb7185;
+    /* ANTHRACITE FINTECH PALETTE */
+    --bg-main: #111317;          /* fond global */
+    --bg-elevated: #1A1C20;      /* panneaux légèrement relevés */
+    --bg-card: #0D0F12;          /* cartes plus sombres */
+    --text-main: #F2F5F7;        /* blanc fintech doux */
+    --text-muted: #A3A8AF;       /* gris texte secondaire */
+    --accent-green: #4ADE80;     /* vert indiciel */
+    --accent-red: #F87171;       /* rouge propre */
+    --accent-cyan: #22D3EE;      /* bleu financier */
 
 }
 
 body {
-  background:
-    radial-gradient(circle at 0% 0%, #1f2933 0, transparent 55%),
-    radial-gradient(circle at 100% 0%, #111827 0, transparent 55%),
-    var(--bg-main);
+    background:
+        radial-gradient(circle at 20% 20%, rgba(255,255,255,0.02), transparent 60%),
+        radial-gradient(circle at 80% 80%, rgba(255,255,255,0.015), transparent 70%),
+        var(--bg-main);
+}
+
   color: var(--text-main);
   font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
 }
