@@ -373,6 +373,8 @@ body {
 .asset-name {
   font-size: 0.88rem;
   font-weight: 500;
+  color: #e5e7eb; /* texte clair, bien lisible */
+
 }
 
 .asset-tag {
